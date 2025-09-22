@@ -1,0 +1,47 @@
+embeddings:
+  backend: "sentence_transformers"   # "sentence_transformers" | "openai"
+  model: "intfloat/e5-base-v2"       # swap to any ST model (e.g., all-MiniLM-L6-v2) or OpenAI embedding model
+  normalize: true
+  # If using OpenAI embeddings:
+  openai_base_url: null              # e.g., "https://api.openai.com/v1"
+  openai_api_key: null               # or set via env; leave null to use OPENAI_API_KEY
+  # If using SentenceTransformers:
+  sentence_transformers_device: null # e.g., "cuda", "mps", or "cpu"
+
+prompt_agent:
+  model: "llama3.1:8b"
+  base_url: "http://localhost:11434/v1"
+  api_key: "ollama"
+  system_prompt_path: "agents/prompts.yaml"
+  temperature: 0.2
+
+data:
+  spotify_csv: "data/spotify_songs.csv"
+
+audio_columns:
+  - danceability
+  - energy
+  - key
+  - loudness
+  - mode
+  - speechiness
+  - acousticness
+  - instrumentalness
+  - liveness
+  - valence
+  - tempo
+
+weights:
+  audio: 0.6
+  text: 0.3
+  popularity: 0.1
+
+training:
+  min_tracks_per_playlist: 5
+  ridge_alphas: [0.1, 1.0, 3.0, 10.0, 30.0]
+
+recommend:
+  k: 50
+  per_artist_cap: 2
+  min_year: 2012
+  min_pop_quantile: 0.2

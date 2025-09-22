@@ -2,3 +2,12 @@ spotipy
 pandas
 python-dotenv
 mysql-connector-python
+scikit-learn
+sentence-transformers
+numpy
+huggingface_hub[hf_xet]
+flask
+flask-cors
+openai
+pydantic-ai
+gunicorn
