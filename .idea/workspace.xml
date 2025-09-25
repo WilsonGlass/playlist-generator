@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9101fd3e-64fc-4133-8e8c-24513123cd41" name="Changes" comment="skeleton">
+      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/playlist-ui/postcss.config.cjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/playlist-ui/src/components/ControlsPanel.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/playlist-ui/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/playlist-ui/src/lib/api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/playlist-ui/tailwind.config.cjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/agents/prompt_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/agents/prompt_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/agents/prompts.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/agents/prompts.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/agents/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/agents/schemas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/api/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/rec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/tests/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/util/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/util/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;WilsonGlass&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/WilsonGlass/playlist-generator.git&quot;,
+    &quot;accountId&quot;: &quot;33e9b640-f3b3-4c85-b75d-41edd4b6224e&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="32emQRDxO8FK3mDyITfPlzEYoax" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for tests.test.TestPrompt2Playlist.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for tests.test.TestPrompt2Playlist.test_recommend_returns_dataframe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.interview.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/yaboi/PycharmProjects/playlist-generator/data/dataset&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\data\dataset" />
+      <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\backend" />
+      <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\backend\src" />
+      <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\api" />
+      <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\tests" />
+      <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\agents" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.interview">
+    <configuration name="interview" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="playlist-generator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interview.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for backend.src.tests.test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="playlist-generator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;backend.src.tests.test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for backend.tests.test" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="playlist-generator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;backend.tests.test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for tests.test.TestPrompt2Playlist.test_recommend_returns_dataframe" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="playlist-generator" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.test.TestPrompt2Playlist.test_recommend_returns_dataframe&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.interview" />
+        <item itemvalue="Python tests.Python tests for backend.src.tests.test" />
+        <item itemvalue="Python tests.Python tests for backend.tests.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9101fd3e-64fc-4133-8e8c-24513123cd41" name="Changes" comment="" />
+      <created>1757789395464</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1757789395464</updated>
+    </task>
+    <task id="LOCAL-00001" summary="readme">
+      <option name="closed" value="true" />
+      <created>1758052686394</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758052686394</updated>
+    </task>
+    <task id="LOCAL-00002" summary="datav1">
+      <option name="closed" value="true" />
+      <created>1758064733685</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758064733685</updated>
+    </task>
+    <task id="LOCAL-00003" summary="skeleton">
+      <option name="closed" value="true" />
+      <created>1758573199133</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758573199133</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="readme" />
+    <MESSAGE value="datav1" />
+    <MESSAGE value="skeleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="skeleton" />
+  </component>
+</project>
