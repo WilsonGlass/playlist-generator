@@ -16,7 +16,7 @@ prompt_agent:
   temperature: 0.2
 
 data:
-  spotify_csv: "data/spotify_songs.csv"
+  spotify_csv: "src/data/spotify_songs.csv"
 
 audio_columns:
   - danceability

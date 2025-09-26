@@ -6,12 +6,12 @@ from openai.types.chat import (
     ChatCompletionUserMessageParam,
 )
 
-from backend.src.agents.schemas import RewriteResult
+from agents.schemas import RewriteResult
 
 
 class PromptAgent:
     def __init__(self):
-        with open("agents/prompts.yaml", "r", encoding="utf-8") as f:
+        with open("src/agents/prompts.yaml", "r", encoding="utf-8") as f:
             prompts = yaml.safe_load(f)
         self.system_prompt = prompts["system_prompt"]
         self.client = OpenAI(

@@ -8,10 +8,10 @@ from sklearn.linear_model import RidgeCV
 from sentence_transformers import SentenceTransformer
 
 from agents.prompt_agent import PromptAgent
-from backend.src.util.util import coerce_audio, normalize_popularity, l2norm
+from util.util import coerce_audio, normalize_popularity, l2norm
 
 
-with open("../config.yaml", "r", encoding="utf-8") as f:
+with open("config.yaml", "r", encoding="utf-8") as f:
     CONFIG = yaml.safe_load(f)
 
 

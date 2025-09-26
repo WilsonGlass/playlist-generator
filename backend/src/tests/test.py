@@ -1,4 +1,4 @@
-from backend.src.rec import Prompt2Playlist
+from src.rec import Prompt2Playlist
 
 
 def test_rec():

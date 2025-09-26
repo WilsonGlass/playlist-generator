@@ -5,21 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9101fd3e-64fc-4133-8e8c-24513123cd41" name="Changes" comment="skeleton">
-      <change afterPath="$PROJECT_DIR$/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/playlist-ui/postcss.config.cjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/playlist-ui/src/components/ControlsPanel.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/playlist-ui/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/playlist-ui/src/lib/api.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/playlist-ui/tailwind.config.cjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/agents/prompt_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/agents/prompt_agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/agents/prompts.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/agents/prompts.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/agents/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/agents/schemas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/api/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/rec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/tests/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/util/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/util/util.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/backend/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/fit.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/playlist-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/playlist-generator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/agents/prompt_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/agents/prompt_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/api/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/rec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/tests/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,8 +59,8 @@
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yaboi/PycharmProjects/playlist-generator/data/dataset&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+    &quot;last_opened_file_path&quot;: &quot;/home/wilsonglass/PycharmProjects/playlist-generator&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -76,11 +69,11 @@
       <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\data" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/backend/src" />
       <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\backend" />
       <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\backend\src" />
       <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\api" />
-      <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\tests" />
-      <recent name="C:\Users\yaboi\PycharmProjects\playlist-generator\agents" />
     </key>
   </component>
   <component name="RunManager" selected="Python.interview">
@@ -162,7 +155,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-ce6832f46686-7b97d883f26b-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.25557.178" />
+        <option value="bundled-python-sdk-b3d66beaba9a-c6efb3732140-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-252.26199.168" />
       </set>
     </attachedChunks>
   </component>
