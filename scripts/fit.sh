@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# POST /fit
 
 curl -X POST \
   -H 'Content-Type: application/json' \

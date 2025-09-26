@@ -6,7 +6,8 @@ from flask import Flask, request, jsonify, Response
 from flask_cors import CORS
 import yaml
 
-from rec import Prompt2Playlist
+from src.recsys.prompt2playlist import Prompt2Playlist
+
 
 app = Flask(__name__)
 CORS(app)

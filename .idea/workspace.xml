@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9101fd3e-64fc-4133-8e8c-24513123cd41" name="Changes" comment="skeleton">
-      <change afterPath="$PROJECT_DIR$/scripts/fit.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/playlist-generator.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/playlist-generator.iml" afterDir="false" />
+    <list default="true" id="9101fd3e-64fc-4133-8e8c-24513123cd41" name="Changes" comment="api progress">
+      <change afterPath="$PROJECT_DIR$/backend/src/recsys/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/recsys/embeddings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/recsys/prompt2playlist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/recsys/prototypes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/recsys/scoring.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/recsys/training.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/recommend.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/agents/prompt_agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/agents/prompt_agent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/agents/prompts.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/agents/prompts.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/agents/schemas.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/agents/schemas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/src/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/api/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/rec.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/rec.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/src/tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/tests/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/rec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/fit.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/fit.sh" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,12 +41,12 @@
     &quot;assignee&quot;: &quot;WilsonGlass&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/WilsonGlass/playlist-generator.git&quot;,
-    &quot;accountId&quot;: &quot;33e9b640-f3b3-4c85-b75d-41edd4b6224e&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:WilsonGlass/playlist-generator.git",
+    "accountId": "32d95268-d6af-416c-be45-ee318f17716a"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
 }</component>
@@ -191,13 +197,22 @@
       <option name="project" value="LOCAL" />
       <updated>1758573199133</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="api progress">
+      <option name="closed" value="true" />
+      <created>1758908813331</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758908813331</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readme" />
     <MESSAGE value="datav1" />
     <MESSAGE value="skeleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="skeleton" />
+    <MESSAGE value="api progress" />
+    <option name="LAST_COMMIT_MESSAGE" value="api progress" />
   </component>
 </project>

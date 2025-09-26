@@ -6,7 +6,7 @@ from openai.types.chat import (
     ChatCompletionUserMessageParam,
 )
 
-from agents.schemas import RewriteResult
+from src.agents.schemas import RewriteResult
 
 
 class PromptAgent:
